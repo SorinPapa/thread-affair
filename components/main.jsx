@@ -1,9 +1,38 @@
-import HomeNewsletter from "./homepage/home-newsletter";
+import HomeNewsletter from './homepage/home-newsletter';
 
 export default function Main() {
   return (
     <main className="content ">
-      <header className="content-header"></header>
+      <header className="content-header">
+        <div className="banner-main">
+          <div className="banner-main-inner container">
+            <div className="banner-info">
+              <h1>Office suits</h1>
+              <h2>Get back to work style</h2>
+
+              <a
+                href=""
+                className="button button-large"
+                title="Create your suit"
+              >
+                Create your suit
+              </a>
+            </div>
+
+            <div className="banner-copy">
+              <p>
+                <span>A tailor suit</span>
+                that will fit you perfectly is a dream for everybody
+              </p>
+
+              <p className="d-none d-lg-block">
+                We provide you with the design and you choose if you like it or
+                if you want to change details with our online configurator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
 
       <section className="content-main">
         <section className="home-catalog-preview container">
@@ -14,10 +43,12 @@ export default function Main() {
 
             <p>
               Accomplish new achievements with a bold new style from the
-              brilliant collection of men’s designer suits. For the finest
-              custom tailored experience, be sure to explore our selection of
-              premium fabrics from one of the world's oldest fabric mills,
-              Vitale Barberis Canonico.
+              brilliant collection of men’s designer suits.
+            </p>
+            <p>
+              For the finest custom tailored experience, be sure to explore our
+              selection of premium fabrics from one of the world's oldest fabric
+              mills, Vitale Barberis Canonico.
             </p>
           </header>
 
@@ -32,7 +63,7 @@ export default function Main() {
           </footer>
         </section>
 
-          <HomeNewsletter></HomeNewsletter>
+        <HomeNewsletter></HomeNewsletter>
 
         <section className="home-payment container">
           <header>
@@ -69,11 +100,8 @@ export default function Main() {
             <li>
               <img src="images\payment\amazon.jpg" alt="" />
             </li>
-
-
           </ul>
         </section>
-
       </section>
     </main>
   );
