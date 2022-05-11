@@ -1,3 +1,5 @@
+import HomeNewsletter from "./homepage/home-newsletter";
+
 export default function Main() {
   return (
     <main className="content">
@@ -30,9 +32,7 @@ export default function Main() {
           </footer>
         </section>
 
-        <section className="home-newsletter">
-          x
-        </section>
+      <HomeNewsletter></HomeNewsletter>
 
         <section className="home-payment container">
           <header>
