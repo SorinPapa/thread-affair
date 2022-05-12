@@ -37,4 +37,23 @@
       }
     }
   }
+
+  .product-tiles {
+    margin-bottom: 50px;
+  }
+
+  .demo-flex {
+    .product-tiles {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      row-gap: 70px;
+
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        column-gap: 8.821825;
+      }
+    }
+  }
 }
