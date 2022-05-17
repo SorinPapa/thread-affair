@@ -3,28 +3,27 @@ export default function ProductTile() {
     <article className="product-tile">
       <header className="product-tile-header">
         <div className="product-tile-image">
-          <a href="" title="threat affair traveller suit">
+          <a href="" title="Thread Affair Gingham Suit">
             <img
               src="/images/products/product-01a.jpg"
-              alt=" Thread Affair Traveller Suits"
-            />
+              alt="Thread Affair Gingham Suit"
+            ></img>
           </a>
         </div>
 
         <div className="product-tile-badge">
-          <span className="badge badge-font-large">%</span>
+          <span className="badge badge-font-large badge-secondary">%</span>
         </div>
 
         <div className="product-tile-headings">
           <h1>
-            <a href="" title="Thread Affair Ginham Suits">
-              <span>Thread Affair</span> <span> Ginham </span>
-              Suits
+            <a href="" title="Thread Affair Gingham Suit">
+              <span>Thread Affair</span> <span>Gingham</span> Suit
             </a>
           </h1>
 
           <h2>
-            <a href="" title="Thread Affair Ginham Suits">
+            <a href="" title="Thread Affair Gingham Suit">
               Berlin fit-Regular
             </a>
           </h2>
